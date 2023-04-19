@@ -1,0 +1,181 @@
+body{
+    margin: 12px 120px 12px 120px;
+}
+
+
+.avtar{
+    height: 50px;
+    width: 50px;
+margin-left: 50px;
+margin-right: 50px;
+}
+.crousel{
+    width: 750px;
+   margin-left:0;
+    float: left;
+    margin-top: 75px;
+  border-radius: 15px;
+}
+.stimage
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
+   
+}
+
+.logoimgs{
+    align-items: center;
+    border-radius: 12px;
+    margin-top: 20px;
+margin-left: 15px;
+width: 150px;
+height: 150px;
+}
+.page-content{
+    float:right;
+    position: absolute;
+    left: 980px;
+    top: 250px;
+    margin-left: 25px;
+   
+}
+h2{
+    font-size: 35px;
+    color: orange;
+
+}
+h1{
+    font-size: 50px;
+    margin-top: 55px ;
+  
+}
+p{    text-align: left;
+    margin-top: 45px;
+    font-size: 20px;
+
+}
+.btn1{
+     height: 50px; 
+    margin-top: 55px;
+}
+.btn1{
+    color:  rgb(255, 60, 0);
+    margin-top: 55px;
+    background-color: #FF9551;
+
+
+}
+/* .btn1:hover{
+    color: #ff2701;
+    
+
+    background-color: #FEA82F;
+} */
+.crss{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: small;
+}
+
+
+.minus,.plus{
+    color:#fc8236;
+    width: 15px;
+    text-align:center;
+    border:solid .9px;
+    /* border-radius:4px; */
+    font-size: 17px ;
+    border: 0;
+    
+  }
+  .minus{
+    display: inline-table;
+    width: 15px;
+/* font-size: 17px ; */
+  }
+  .plus{
+    display: inline;
+    float: right;
+    margin-left: 5px;
+    
+  }
+
+  
+
+  .cart-a-s{
+    height: 50px;
+    position: absolute;
+    right: 400px;
+    top: 850px;
+   background-color: rgb(181, 181, 181);
+    border-radius: 5px;
+    padding-top: 13px;
+  }
+
+  .number-bar{
+   background-color: rgb(181, 181, 181);
+    padding-left: 5px;
+    border: 0;
+    text-align: center;
+    width: 80px;
+    
+  }
+
+.add-cart{
+    position: absolute;
+    top: 850px;
+    right: 200px;
+}
+
+
+  .btn-cart{
+    background-color:hsl(26, 100%, 55%);
+      border-radius:5px;
+      border: 0;
+      height: 50px;
+      color:hsl(25, 100%, 99%) ;
+      font-size: larger;
+      width: 180px;
+    }
+
+    
+@media only screen and (max-width:700px){
+      .navbar-toggler{
+        position: absolute;
+        left: 0px;
+          border: none;
+      }
+
+      .navbar-brand{
+        margin-left: 50px;
+        /* z-index: -9; */
+      }
+
+      .btn{
+        position: absolute;
+        right: 200px;
+        top: 17px;
+        z-index: 1;
+      }
+
+      .avtar{
+        position: absolute;
+        right: 75px;
+        top: 13px;
+        height: 50px;
+        z-index: 1;
+      }
+
+      .logoimgs{
+        display: none;
+      }
+
+      .carousel-item{
+        height: 500px;
+        width: 650px;
+      }
+}    
+
+    
+ 
